@@ -1,6 +1,7 @@
 package rure
 
-// #cgo LDFLAGS: -L${SRCDIR}/target/release -lrure
+// #cgo darwin LDFLAGS: -L${SRCDIR}/target/release -lrure
+// #cgo linux LDFLAGS: -lrure
 //
 // #include <stdio.h>
 // #include <stdlib.h>
